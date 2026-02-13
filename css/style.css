@@ -217,6 +217,7 @@ body {
   left: 478px;
   top: 368px;
   -webkit-text-stroke: 5px #005cb1;
+  paint-order: stroke fill;
 }
 
 .hero-platforms {
@@ -418,6 +419,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   -webkit-text-stroke: 5px #005cb1;
+  paint-order: stroke fill;
   white-space: nowrap;
 }
 
@@ -445,6 +447,7 @@ body {
   font-size: 61px;
   line-height: 66px;
   -webkit-text-stroke: 4.4px #005cb1;
+  paint-order: stroke fill;
 }
 
 .feature-card--left .feature-card-icon {
@@ -466,6 +469,7 @@ body {
   font-size: 61px;
   line-height: 66px;
   -webkit-text-stroke: 4.4px #005cb1;
+  paint-order: stroke fill;
 }
 
 .feature-card--right .feature-card-icon {
@@ -842,6 +846,7 @@ body {
   left: 715px;
   bottom: 30px;
   -webkit-text-stroke: 5px #005cb1;
+  paint-order: stroke fill;
 }
 
 .banner-community {
