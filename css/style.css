@@ -216,8 +216,14 @@ body {
   position: absolute;
   left: 478px;
   top: 368px;
-  -webkit-text-stroke: 5px #005cb1;
-  paint-order: stroke fill;
+  text-shadow:
+    -5px -5px 0 #005cb1, 0 -5px 0 #005cb1, 5px -5px 0 #005cb1,
+    5px 0 0 #005cb1, 5px 5px 0 #005cb1, 0 5px 0 #005cb1,
+    -5px 5px 0 #005cb1, -5px 0 0 #005cb1,
+    -3px -4px 0 #005cb1, 3px -4px 0 #005cb1,
+    4px -3px 0 #005cb1, 4px 3px 0 #005cb1,
+    3px 4px 0 #005cb1, -3px 4px 0 #005cb1,
+    -4px 3px 0 #005cb1, -4px -3px 0 #005cb1;
 }
 
 .hero-platforms {
@@ -418,8 +424,14 @@ body {
   top: 120px;
   left: 50%;
   transform: translateX(-50%);
-  -webkit-text-stroke: 5px #005cb1;
-  paint-order: stroke fill;
+  text-shadow:
+    -5px -5px 0 #005cb1, 0 -5px 0 #005cb1, 5px -5px 0 #005cb1,
+    5px 0 0 #005cb1, 5px 5px 0 #005cb1, 0 5px 0 #005cb1,
+    -5px 5px 0 #005cb1, -5px 0 0 #005cb1,
+    -3px -4px 0 #005cb1, 3px -4px 0 #005cb1,
+    4px -3px 0 #005cb1, 4px 3px 0 #005cb1,
+    3px 4px 0 #005cb1, -3px 4px 0 #005cb1,
+    -4px 3px 0 #005cb1, -4px -3px 0 #005cb1;
   white-space: nowrap;
 }
 
@@ -446,8 +458,12 @@ body {
 .feature-card--left .feature-card-title {
   font-size: 61px;
   line-height: 66px;
-  -webkit-text-stroke: 4.4px #005cb1;
-  paint-order: stroke fill;
+  text-shadow:
+    -4px -4px 0 #005cb1, 0 -4px 0 #005cb1, 4px -4px 0 #005cb1,
+    4px 0 0 #005cb1, 4px 4px 0 #005cb1, 0 4px 0 #005cb1,
+    -4px 4px 0 #005cb1, -4px 0 0 #005cb1,
+    -3px -3px 0 #005cb1, 3px -3px 0 #005cb1,
+    3px 3px 0 #005cb1, -3px 3px 0 #005cb1;
 }
 
 .feature-card--left .feature-card-icon {
@@ -468,8 +484,12 @@ body {
 .feature-card--right .feature-card-title {
   font-size: 61px;
   line-height: 66px;
-  -webkit-text-stroke: 4.4px #005cb1;
-  paint-order: stroke fill;
+  text-shadow:
+    -4px -4px 0 #005cb1, 0 -4px 0 #005cb1, 4px -4px 0 #005cb1,
+    4px 0 0 #005cb1, 4px 4px 0 #005cb1, 0 4px 0 #005cb1,
+    -4px 4px 0 #005cb1, -4px 0 0 #005cb1,
+    -3px -3px 0 #005cb1, 3px -3px 0 #005cb1,
+    3px 3px 0 #005cb1, -3px 3px 0 #005cb1;
 }
 
 .feature-card--right .feature-card-icon {
@@ -845,8 +865,14 @@ body {
   position: absolute;
   left: 715px;
   bottom: 30px;
-  -webkit-text-stroke: 5px #005cb1;
-  paint-order: stroke fill;
+  text-shadow:
+    -5px -5px 0 #005cb1, 0 -5px 0 #005cb1, 5px -5px 0 #005cb1,
+    5px 0 0 #005cb1, 5px 5px 0 #005cb1, 0 5px 0 #005cb1,
+    -5px 5px 0 #005cb1, -5px 0 0 #005cb1,
+    -3px -4px 0 #005cb1, 3px -4px 0 #005cb1,
+    4px -3px 0 #005cb1, 4px 3px 0 #005cb1,
+    3px 4px 0 #005cb1, -3px 4px 0 #005cb1,
+    -4px 3px 0 #005cb1, -4px -3px 0 #005cb1;
 }
 
 .banner-community {
