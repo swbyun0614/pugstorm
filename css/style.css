@@ -4,6 +4,10 @@
 @import url(reset.css);
 
 /* ===== Global ===== */
+body {
+  background: #041018;
+}
+
 .wrapper,
 .wrapper * {
   box-sizing: border-box;
