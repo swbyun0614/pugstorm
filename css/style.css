@@ -140,21 +140,25 @@ body {
 }
 
 .hero-title {
-  position: absolute; left: 478px; top: 368px;
+  position: absolute; left: 478px; top: 368px; z-index: 10;
   text-align: left; font-family: "Cafe24Anemone", sans-serif; font-size: 70px; font-weight: 400; text-shadow: -5px -5px 0 #005cb1, 0 -5px 0 #005cb1, 5px -5px 0 #005cb1, 5px 0 0 #005cb1, 5px 5px 0 #005cb1, 0 5px 0 #005cb1, -5px 5px 0 #005cb1, -5px 0 0 #005cb1, -3px -4px 0 #005cb1, 3px -4px 0 #005cb1, 4px -3px 0 #005cb1, 4px 3px 0 #005cb1, 3px 4px 0 #005cb1, -3px 4px 0 #005cb1, -4px 3px 0 #005cb1, -4px -3px 0 #005cb1;
 }
 
 .hero-platforms {
-  position: absolute; bottom: 60px; left: 50%;
+  position: absolute; bottom: 166px; left: 50%;
   display: flex; align-items: center; justify-content: center; transform: translateX(-50%); gap: 20px;
 }
 
 .hero-platforms img {
   height: 120px; object-fit: cover;
 }
+.hero-platforms img:nth-child(2),
+.hero-platforms img:nth-child(4) {
+  transform: translateY(-14px);
+}
 
 .hero-platform-center {
-  height: 134px !important;
+  height: 134px !important; transform: translateY(-36px);
 }
 
 /* ===== Game Introduction ===== */
