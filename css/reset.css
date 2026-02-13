@@ -1,0 +1,36 @@
+* {margin: 0; padding: 0;}
+li {list-style: none;}
+a {text-decoration: none; color: #333;}
+
+html, body {height: 100%; word-break: keep-all;}
+table {border-collapse: collapse;}
+img {vertical-align: text-bottom;}
+fieldset {border: 0;}
+legend {text-indent: -9999px; font-size: 0; color: transparent;}
+button, input {outline: 0;}
+
+a,
+button,
+input,
+select,
+h1,
+h2,
+h3,
+h4,
+h5,
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    background: none;
+
+    -webkit-font-smoothing: antialiased;
+}
+
+menu, ol, ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
