@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
   <link rel="stylesheet" href="css/style.css">
   <title>Core Keeper</title>
 </head>
@@ -72,8 +73,20 @@
     <!-- Gallery -->
     <section class="gallery">
       <div class="gallery-inner">
+        <div class="swiper gallery-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img class="gallery-img" src="images/image-250.png" alt="Gallery Image 1">
+            </div>
+            <div class="swiper-slide">
+              <img class="gallery-img" src="images/image-260.png" alt="Gallery Image 2">
+            </div>
+            <div class="swiper-slide">
+              <img class="gallery-img" src="images/image-270.png" alt="Gallery Image 3">
+            </div>
+          </div>
+        </div>
         <img class="gallery-prev" src="images/rectangle-360.png" alt="Previous">
-        <img class="gallery-img" src="images/image-250.png" alt="Gallery Image 1">
         <img class="gallery-next" src="images/rectangle-350.png" alt="Next">
       </div>
     </section>
@@ -260,5 +273,15 @@
       </div>
     </footer>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const gallerySwiper = new Swiper('.gallery-swiper', {
+      loop: true,
+      navigation: {
+        prevEl: '.gallery-prev',
+        nextEl: '.gallery-next',
+      },
+    });
+  </script>
 </body>
 </html>
